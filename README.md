@@ -41,3 +41,4 @@ MiniMax是优于蒙特卡洛树搜索，但是MiniMax即使经过了Alpha-Beta�
 - python 3.6.5
 - numpy 1.13.3
 - pandas 0.22.0
+- matplotlib 2.1.0
