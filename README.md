@@ -1,6 +1,6 @@
 # 项目说明
 
-> 这是一个使用python实现的``Minimax(alpha-beta)搜索``和``蒙特卡洛树搜索``在tictactoe游戏上PK的项目,
+这是一个使用python实现的``Minimax(alpha-beta)搜索``和``蒙特卡洛树搜索``在tictactoe游戏上PK的项目,
 这里主要是利用了我之前写的[Minimax](https://github.com/zhuliquan/tictactoe_minimax)和
 [蒙特卡洛搜索树](https://github.com/zhuliquan/tictactoe_mcts)的例子
 
@@ -12,7 +12,7 @@
 - mcts.py 
 - analyze_pk.py
 ---
->这里面需要说明的是anaysis_pk.py, 这里面包含两种AI的博弈代码，
+这里面需要说明的是anaysis_pk.py, 这里面包含两种AI的博弈代码，
 这里面我是进行了10次博弈模拟，蒙特卡洛树搜索自身每次下棋都是经过了
 200次模拟，然后将结果以图像的形式展现
 
@@ -22,7 +22,7 @@
 python analyze_pk.py
 ```
 
-### 运行结果
+## 运行结果
 经过若干次的程序运行，发现了MiniMax搜索基本上处于不败的地位，而蒙特卡洛树搜索在一开始
 由于搜索树还没有完全构建可能处于下风，但是之后也可以和MinimMax打平。所以总体来说
 MiniMax是优于蒙特卡洛树搜索，但是MiniMax即使经过了Alpha-Beta剪枝，运行时间上还是
